@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./CSS/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="./CSS/owl-carousel/owl.theme.default.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>A25 hotel</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-md-6">
+                            <div class="item-header item-header_left">
+                                <p>
+                                    <i class="far fa-map-marker-alt"></i> &nbsp;147 Mai Dịch - Q. Cầu Giấy - Tp. Hà Nội
+                                </p>
+                                <p>
+                                    <i class="fas fa-phone-alt"></i> &nbsp;
+                                    <a href="Tel:(+84) 981 769 974">(+84) 981 769 974</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="item-header item-header_right align-items-center">
+                                <ul class="social__icons">
+                                    <li class="social-icons__item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="social-icons__item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="social-icons__item"><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+                                </ul>
+                                <div class="dropdown lang-menu">
+                                    <select id="selectbox2">
+                                        <option value="">Tiếng Việt</option>
+                                        <option value="january">English</option>
+                                        <option value="february">China</option>
+                                        <option value="march">Korea</option>
+                                        <option value="april">Japan</option>
+                                      
+                                       
+                                    </select>
+                                </div>
+                                <form class="search-form hidden-xs" role="search">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn-search_top"><i class="fas fa-search"></i></button>
+                                        <input type="text" class="form-control" placeholder="Nhập từ khóa...">
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-3">
+                            <div class="logo">
+                                <a class="navbar-brand" href="#">
+                                    <img class="" src="./Image/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Trang chủ </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Giới thiệu</a>
+                                    </li>
+
+
+                                    <li class="nav-item dropdown" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a href="/khach-san" class="nav-link">
+
+                                            <span>DANH SÁCH KHÁCH SẠN</span>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-toggle" aria-labelledby="navbarDropdownMenuLink">
+
+                                            <li class="nav-item dropdown" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <a href="/khach-san-tai-ha-noi">KHÁCH SẠN TẠI HÀ NỘI</a>
+                                                <ul class="dropdown-menu2" aria-labelledby="navbarDropdownMenuLink2">
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-thanh-xuan">Khách Sạn tại Quận Thanh Xuân </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-hai-ba-trung">Khách Sạn tại Quận Hai Bà Trưng </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-hoan-kiem">Khách Sạn tại Quận Hoàn Kiếm </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-tay-ho">Khách sạn tại Quận Tây Hồ </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-ba-dinh">Khách sạn tại Quận Ba Đình </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-dong-da">Khách Sạn tại Quận Đống Đa </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-cau-giay">Khách sạn tại Quận Cầu Giấy </a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/khach-san-tai-da-nang">KHÁCH SẠN TẠI ĐÀ NẴNG</a>
+                                                <ul class="dropdown-menu2">
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-hai-chau">Khách sạn tại Quận Hải Châu </a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/khach-san-tai-thanh-pho-ho-chi-minh">KHÁCH SẠN TẠI TP.HCM</a>
+                                                <ul class="dropdown-menu2">
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-1">Khách sạn tại Quận 1 </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-3">Khách sạn tại Quận 3 </a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/khach-san-tai-duc">KHÁCH SẠN TẠI ĐỨC</a>
+                                                <ul class="dropdown-menu2">
+                                                    <li class="item-menu"><a href="/khach-san-tai-berlin">Khách sạn tại Berlin </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tours</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Sổ tay du lịch</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tin Tức</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tuyển dụng</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <banner>
+        <section id="banner">
+            <div class="section">
+                <div class="banner">
+                    <div class="owl-banner owl-carousel owl-theme">
+
+                        <div class="item section__home " id="section__home ">
+                            <img src="./Image/631a8908.jpg" alt="">
+                            <div class="content-banner">
+                                <div class="container ">
+                                    <div class="row ">
+                                        <div class="col-sm-12 ">
+                                            <div class="welcome__content ">
+                                                <h1 class="welcome_content__title">KH&#193;CH SẠN</h1>
+                                                <div class="divider ">
+                                                    <hr class="line1 ">
+                                                    <hr class="line2 ">
+                                                    <hr class="line1 ">
+                                                </div>
+                                                <a href="#section__about" class="btn btn-reservation">Khám phá ngay</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item section__home " id="section__home ">
+                            <img src="./Image/631a8921.jpg" alt="">
+                            <div class="content-banner">
+                                <div class="container ">
+                                    <div class="row ">
+                                        <div class="col-sm-12 ">
+                                            <div class="welcome__content ">
+                                                <h1 class="welcome_content__title wow fadeInRight ">KH&#193;CH SẠN</h1>
+                                                <div class="divider ">
+                                                    <hr class="line1 ">
+                                                    <hr class="line2 ">
+                                                    <hr class="line1 ">
+                                                </div>
+                                                <a href="#section__about" class="btn btn-reservation wow bounce ">Khám phá ngay</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item section__home " id="section__home ">
+                            <img src="./Image/631a8973.jpg" alt="">
+                            <div class="content-banner">
+                                <div class="container ">
+                                    <div class="row ">
+                                        <div class="col-sm-12 ">
+                                            <div class="welcome__content ">
+                                                <h1 class="welcome_content__title wow fadeInRight ">KH&#193;CH SẠN</h1>
+                                                <div class="divider ">
+                                                    <hr class="line1 ">
+                                                    <hr class="line2 ">
+                                                    <hr class="line1 ">
+                                                </div>
+                                                <a href="#section__about" class="btn btn-reservation wow bounce ">Khám phá ngay</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </banner>
+    <main>
+        <section class="section__about" id="section__about">
+            <div class="container ">
+                <div class="about-title">
+                    <h2 class="section__title "><strong>Đôi nét về chúng tôi</strong></h2>
+                    <div class="divider ">
+                        <hr class="line1 ">
+                        <hr class="line2 ">
+                        <hr class="line1 ">
+                    </div>
+                </div>
+
+                <div class="section_about__content ">
+
+                    <div class="row ">
+
+                        <div class="col-md-5 col-sm-12 ">
+                            <div class="about__desc">
+                                <p class="about_desc__subtitle ">GIỚI THIỆU</p>
+                                <h3 class="about_desc__title ">Có lẽ là nơi tốt nhất để bạn tận hưởng cuộc sống</h3>
+                                <p class="about_desc__desc ">
+                                </p>
+                                <p>Cảm ơn quý khách hàng đã tin tưởng và đồng hành cùng A25 Hotel trong suốt thời gian vừa qua, chúng tôi sẽ mang tới cho quý khách hàng những trải nghiệm tốt nhất, những dịch vụ hiện đại nhất và thật nhiều khuyến mãi để phục
+                                    vụ nhu cầu của khách hàng.</p>
+                                <p></p>
+                                <h4 class="about_desc__quote "> Cảm ơn quý khách hàng đã tin tưởng và đồng hành cùng A25 Hotel trong suốt thời gian vừa qua</h4>
+                                <a href="about.html " class="btn btn-default ">Xem thêm</a>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-7 col-sm-12 ">
+                            <div class="about__pic">
+
+                                <iframe width="100%" height="364" src="https://www.youtube.com/embed/j9VLOXdx9VQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section__best-rooms ">
+            <div class="container ">
+
+                <div class="section-title">
+                    <h2 class="section__title "><strong>Khách sạn của chúng tôi</strong></h2>
+                    <div class="divider ">
+                        <hr class="line1 ">
+                        <hr class="line2 ">
+                        <hr class="line1 ">
+                    </div>
+                    <p class="section__subtitle text-center">Chúng tôi luôn sẵn sàng phục vụ quý khách tại những điểm đến phù hợp với nhu cầu của quý khách!</p>
+                </div>
+                <div class="best-rooms__content">
+                    <div class="row ">
+                        <div class=" col-sm-6 ">
+                            <figure class="best-rooms__item">
+                                <img src="./image/hanoi2.jpg" class="img-responsive " alt="khach-san-tai-ha-noi">
+                                <figcaption>
+                                    <h3>KHÁCH SẠN TẠI HÀ NỘI</h3>
+                                    <div class="item__price ">
+                                        4 <small>Khách sạn</small>
+                                    </div>
+                                    <p class="item__desc ">Nằm trong khu vực khu kinh tế, thương mại, dịch vụ phát triển nhất của Thành phố Hà Nội, vị trí giao thông thuận tiện.</p>
+                                    <a href="./distric.html" class="btn-book ">Xem địa điểm <i class="fas fa-caret-right "></i></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class=" col-sm-6 ">
+                            <figure class="best-rooms__item">
+                                <img src="./image/Danang.jpg" class="img-responsive " alt="khach-san-tai-da-nang">
+                                <figcaption>
+                                    <h3>KHÁCH SẠN TẠI ĐÀ NẴNG</h3>
+                                    <div class="item__price ">
+                                        1 <small>Khách sạn</small>
+                                    </div>
+                                    <p class="item__desc ">Nằm trong khu vực khu kinh tế, thương mại, dịch vụ phát triển nhất của Thành phố Đà Nẵng, vị trí giao thông thuận tiện.</p>
+                                    <a href="./distric.html" class="btn-book ">Xem địa điểm <i class="fas fa-caret-right "></i></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class=" col-sm-6 ">
+                            <figure class="best-rooms__item">
+                                <img src="./image/saigon2.jpg" class="img-responsive " alt="khach-san-tai-thanh-pho-ho-chi-minh">
+                                <figcaption>
+                                    <h3>KHÁCH SẠN TẠI TP.HCM</h3>
+                                    <div class="item__price ">
+                                        3 <small>Khách sạn</small>
+                                    </div>
+                                    <p class="item__desc ">Nằm trong khu vực khu kinh tế, thương mại, dịch vụ phát triển nhất của Thành phố Hồ Chí Minh, vị trí giao thông thuận tiện.</p>
+                                    <a href="./distric.html" class="btn-book ">Xem địa điểm <i class="fas fa-caret-right "></i></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class=" col-sm-6 ">
+                            <figure class="best-rooms__item">
+                                <img src="./image/Berlin.jpg" class="img-responsive " alt="khach-san-tai-duc">
+                                <figcaption>
+                                    <h3>KHÁCH SẠN TẠI ĐỨC</h3>
+                                    <div class="item__price ">
+                                        0 <small>Khách sạn</small>
+                                    </div>
+                                    <p class="item__desc ">KHÁCH SẠN TẠI ĐỨC</p>
+                                    <a href="./distric.html" class="btn-book ">Xem địa điểm <i class="fas fa-caret-right "></i></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="seeall">
+                    <div class="rooms__button">
+                        <a href="search.html" class="btn">Xem tất cả</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__services ">
+            <div class="container">
+                <div class="review-title">
+                    <h2 class="section__title "><strong>Đánh Giá của khách hàng</strong></h2>
+                    <div class="divider ">
+                        <hr class="line1 ">
+                        <hr class="line2 ">
+                        <hr class="line1 ">
+                    </div>
+                    <!-- / .divider -->
+                    <p class="section__subtitle ">Chúng tôi luôn sẵn sàng cung cấp những dịch vụ tốt nhất đến với quý khách!</p>
+                </div>
+                <div class="review-content">
+                    <div class="owl-review owl-carousel owl-theme ">
+                        <div class="owl-review_item">
+                            <div class="service__item">
+                                <div class="service-avatar">
+                                    <img src="./Image/saigon3.JPG" alt="">
+                                </div>
+                                <div class="service-customer">
+                                    <p class="services_item__title ">
+                                        <b>"Dịch vụ tốt, kh&#244;ng gian tho&#225;ng m&#225;t"</b>
+                                    </p>
+
+                                    <p class="services_item__desc ">
+                                        Th&#237;ch nhất v&#236; kh&#225;ch sạn c&#243; khu Spa tr&#234;n tầng 11. Nh&#226;n vi&#234;n lịch sự v&#224; rất nhiệt t&#236;nh. Khu vực Lobby check in kh&#225; đẹp, thủ từ học nhanh ch&#243;ng, nh&#226;n vi&#234;n lễ t&#226;n trẻ trung, giới thiệu
+                                        c&#225;c dịch vụ rất chứ đ&#225;o. Ph&#242;ng sạch sẽ, được free upgrade l&#234;n hạng Exe c&#243; view đẹp. Bữa s&#225;ng kh&#225; đ&#244;ng kh&#225;ch, đầy đủ v&#224; ngon miệng.
+                                    </p>
+                                    <div class="info-customer">
+                                        <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                                        <span><b>Ha Anh Tuan</b></span>
+                                        <span style="font-size : 14px"><b>Viet Nam</b></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="owl-review_item">
+                            <div class="service__item">
+                                <div class="service-avatar">
+                                    <img src="./Image/saigon3.JPG" alt="">
+                                </div>
+                                <div class="service-customer">
+                                    <p class="services_item__title ">
+                                        <b>"Dịch vụ kh&#225; tốt, y&#234;n tĩnh"</b>
+                                    </p>
+
+                                    <p class="services_item__desc ">
+                                        M&#249;a dịch nhưng kh&#225;ch sạn vẫn mở cửa đ&#243;n kh&#225;ch. Buổi s&#225;ng thấy nh&#224; h&#224;ng kh&#225; đ&#244;ng kh&#225;ch ăn s&#225;ng buffet tự chọn. Ph&#242;ng được n&#226;ng hạng miễn ph&#237;, check out muộn đến 14:00 n&#234;n rất thoải
+                                        m&#225;i. Nh&#226;n vi&#234;n lễ t&#226;n rất th&#226;n thiện, thủ tục check out rất nhanh ch&#243;ng, c&#242;n gi&#250;p kh&#225;ch chuyển h&#224;nh l&#253; rất vui vẻ v&#224; nhanh nhẹn. T&#243;m lại rất h&#224;i
+                                        l&#242;ng v&#224; sẽ quay lại.
+                                    </p>
+                                    <div class="info-customer">
+                                        <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                                        <span><b>L&#226;m Yến</b></span>
+                                        <span style="font-size : 14px"><b>Viet Nam</b></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="owl-review_item">
+                            <div class="service__item">
+                                <div class="service-avatar">
+                                    <img src="./Image/saigon3.JPG" alt="">
+                                </div>
+                                <div class="service-customer">
+                                    <p class="services_item__title ">
+                                        <b>"Chất lượng cao, đồ ăn ngon"</b>
+                                    </p>
+
+                                    <p class="services_item__desc ">
+                                        T&#244;i rất h&#224;i l&#242;ng về khoảng thời gian lưu tr&#250; ở kh&#225;ch sạn sen, nh&#226;n vi&#234;n nhiệt t&#236;nh,chu đ&#225;o. Chất lượng dịch vụ v&#224; gi&#225; cả tốt. Gi&#225; ph&#242;ng v&#224; tất cả dịch vụ đều phải chăng. Sẽ l&#224;
+                                        lựa chọn của t&#244;i v&#224;o những dịp cần đến.
+                                    </p>
+                                    <div class="info-customer">
+                                        <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                                        <span><b>Ngọc Anh</b></span>
+                                        <span style="font-size : 14px"><b>Viet Nam</b></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="owl-review_item">
+                            <div class="service__item">
+                                <div class="service-avatar">
+                                    <img src="./Image/saigon3.JPG" alt="">
+                                </div>
+                                <div class="service-customer">
+                                    <p class="services_item__title ">
+                                        <b>"Kh&#244;ng gian đẹp, sang trọng"</b>
+                                    </p>
+
+                                    <p class="services_item__desc ">
+                                        Villa rộng r&#227;i, đẹp, trang thiết bị hiện đại, th&#226;n thiện với m&#244;i trường. Kh&#225;ch được sử dụng bếp để nấu ăn, c&#243; m&#225;y giăt n&#234;n kh&#225;ch rất thuận tiện nếu ở d&#224;i ng&#224;y
+                                    </p>
+                                    <div class="info-customer">
+                                        <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                                        <span><b>Nancy</b></span>
+                                        <span style="font-size : 14px"><b>Viet Nam</b></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__gallery ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-sm-12 ">
+                        <h2 class="section__title "><strong>Khách sạn nổi bật</strong></h2>
+                        <div class="divider ">
+                            <hr class="line1 ">
+                            <hr class="line2 ">
+                            <hr class="line1 ">
+                        </div>
+
+                        <p class="section__subtitle ">A25 Hotel luôn mang đến cho bạn những trải nghiệm tuyệt vời và bổ ích.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div class="hotels-slider owl-carousel owl-theme">
+                    <div class="hotels-slider__item">
+                        <div class="hotels-slider__img">
+                            <a href="javascript:void(0)" class="" rel="">
+                                <img src="./Image/khach-san-tai-ha-noi/khach-san-tai-quan-dong-da/a25-hotel-12-ngo-sy-lien-khach-san-quan-dong-da-ha-noi/vip/3.jpg" alt="a25-hotel-12-ngo-sy-lien-khach-san-quan-dong-da-ha-noi">
+                            </a>
+                        </div>
+                        <div class="hotels-slider__detail">
+                            <a href="/khach-san-tai-quan-dong-da/a25-hotel-12-ngo-sy-lien-khach-san-quan-dong-da-ha-noi/32" class="hotel__link">A25 Hotel 12 Ng&#244; Sỹ Li&#234;n - kh&#225;ch sạn quận Đống Đa H&#224; Nội</a>
+                            <br/>
+                            <p class="hotel__address"><b>Địa chỉ :</b> Số 12 Ng&#244; Sỹ Li&#234;n, Quận Đống Đa, H&#224; Nội</p>
+                            <p class="hotel__price">Giá : <b>690000 VNĐ</b></p>
+                        </div>
+                    </div>
+                    <div class="hotels-slider__item">
+                        <div class="hotels-slider__img">
+                            <a href="javascript:void(0)" class="" rel="">
+                                <img src="./Image/khach-san-tai-ha-noi/khach-san-tai-quan-hai-ba-trung/a25-sahul-hotel/NHH_4360.jpg" alt="a25-sahul-hotel-khach-san-4-sao-quan-hai-ba-trung-ha-noi">
+                            </a>
+                        </div>
+                        <div class="hotels-slider__detail">
+                            <a href="/khach-san-tai-quan-hai-ba-trung/a25-sahul-hotel-khach-san-4-sao-quan-hai-ba-trung-ha-noi/34" class="hotel__link">A25 Sahul Hotel - Kh&#225;ch sạn 4 sao quận Hai B&#224; Trưng H&#224; Nội</a>
+                            <br/>
+                            <p class="hotel__address"><b>Địa chỉ :</b> Số 684 Minh Khai, Hai B&#224; Trưng, H&#224; Nội</p>
+                            <p class="hotel__price">Giá : <b>1690000 VNĐ</b></p>
+                        </div>
+                    </div>
+                    <div class="hotels-slider__item">
+                        <div class="hotels-slider__img">
+                            <a href="javascript:void(0)" class="" rel="">
+                                <img src="./Image/khach-san-tai-ha-noi/khach-san-quan-ba-dinh/a25-hotel-44-hang-bun-khach-san-dep-quan-ba-dinh-ha-noi/phong-rong/IMG_9976.jpg" alt="a25-hotel-44-hang-bun-khach-san-dep-quan-ba-dinh-ha-noi">
+                            </a>
+                        </div>
+                        <div class="hotels-slider__detail">
+                            <a href="/khach-san-tai-quan-ba-dinh/a25-hotel-44-hang-bun-khach-san-dep-quan-ba-dinh-ha-noi/37" class="hotel__link">A25 Hotel 44 H&#224;ng B&#250;n - kh&#225;ch sạn đẹp quận Ba Đ&#236;nh H&#224; Nội</a>
+                            <br/>
+                            <p class="hotel__address"><b>Địa chỉ :</b> Số 44 H&#224;ng B&#250;n, Quận Ba Đ&#236;nh, H&#224; Nội</p>
+                            <p class="hotel__price">Giá : <b>730000 VNĐ</b></p>
+                        </div>
+                    </div>
+                    <div class="hotels-slider__item">
+                        <div class="hotels-slider__img">
+                            <a href="javascript:void(0)" class="" rel="">
+                                <img src="./Image/khach-san-tai-ha-noi/khach-san-tai-quan-hoan-kiem/khach-san-cha-ca/IMG_0390-copy.jpg" alt="khach-san-a25-cha-ca-khach-san-o-pho-co-ha-noi">
+                            </a>
+                        </div>
+                        <div class="hotels-slider__detail">
+                            <a href="/khach-san-tai-quan-hoan-kiem/khach-san-a25-cha-ca-khach-san-o-pho-co-ha-noi/1016" class="hotel__link">Kh&#225;ch sạn A25 Chả C&#225; - Kh&#225;ch sạn ở Phố Cổ H&#224; Nội</a>
+                            <br/>
+                            <p class="hotel__address"><b>Địa chỉ :</b> Số 54-56 H&#224;ng Đường, Ho&#224;n Kiếm, H&#224; Nội / Số 19 Chả C&#225;, Ho&#224;n Kiếm H&#224; Nội</p>
+                            <p class="hotel__price">Giá : <b>680000 VNĐ</b></p>
+                        </div>
+                    </div>
+                    <div class="hotels-slider__item">
+                        <div class="hotels-slider__img">
+                            <a href="javascript:void(0)" class="" rel="">
+                                <img src="./Image/khach-san-tai-hcm/khach-san-tai-quan-1/a25-hotel-so-6-truong-dinh-khach-san-quan-3-ho-chi-minh/sang-trong/402-1.jpg" alt="A25 Hotel so 6 Truong Dinh  Khach san Quan 3 Ho Chi Minh">
+                            </a>
+                        </div>
+                        <div class="hotels-slider__detail">
+                            <a href="/khach-san-tai-quan-3/A25 Hotel so 6 Truong Dinh  Khach san Quan 3 Ho Chi Minh/1022" class="hotel__link">A25 Hotel số 6 Trương Định - Kh&#225;ch sạn Quận 3 Hồ Ch&#237; Minh</a>
+                            <br/>
+                            <p class="hotel__address"><b>Địa chỉ :</b> Số 6 Trương Định, Phường 6, Quận 3, Tp. Hồ Ch&#237; Minh</p>
+                            <p class="hotel__price">Giá : <b>710000 VNĐ</b></p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="section__events">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-sm-12 ">
+                        <h2 class="section__title "><strong>Tin Tức & Sự Kiện</strong></h2>
+                        <div class="divider ">
+                            <hr class="line1 ">
+                            <hr class="line2 ">
+                            <hr class="line1 ">
+                        </div>
+
+                    </div>
+                </div>
+                <!-- / .row -->
+            </div>
+
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+                        <div class="events__item ">
+                            <div class="events-item__img ">
+                                <img src="./Image/so-tay-du-lich/vov-vn_5906-du-lich-theo-nhom-tu-tuc-hay-dat-tour-135831.jpg" class="img-responsive " alt="so-tay-du-lich ">
+                            </div>
+                            <div class="events-item__body ">
+                                <div class="events-item__header ">
+                                    <div class="events-item__date ">
+                                        <p class="item_date__nbr ">11</p>
+                                        <p class="item_date__mounth ">Tháng 5</p>
+                                    </div>
+                                    <!-- .events-item__date -->
+                                    <div class="events-item__content ">
+                                        <div class="events-item__title ">
+                                            <h3>6 Sai lầm ai cũng dễ mắc phải khi đi du lịch</h3>
+                                        </div>
+                                        <div class="events-item__info ">
+                                            <ul class="item-info__list ">
+                                                <li class="info-list__item "><i class="fas fa-user "></i>&nbsp;&nbsp;Đăng bởi A25 Hotel</li>
+                                                <li class="info-list__item "><i class="fas fa-comment-alt "></i> &nbsp;6 Bình luận</li>
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="events-item__text ">
+                                    6 Sai lầm ai cũng dễ mắc phải khi đi du lịch
+                                </div>
+
+                                <div class="events-item__link ">
+                                    <a href="blog-detail.html ">Đọc thêm <i class="fas fa-angle-right "></i></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+                        <div class="events__item ">
+                            <div class="events-item__img ">
+                                <img src="./Image/so-tay-du-lich/bun-bo-hue-5-1600951703-11282-1601287024-11311.jpg" class="img-responsive " alt="so-tay-du-lich ">
+                            </div>
+                            <div class="events-item__body ">
+                                <div class="events-item__header ">
+                                    <div class="events-item__date ">
+                                        <p class="item_date__nbr ">11</p>
+                                        <p class="item_date__mounth ">Tháng 5</p>
+                                    </div>
+                                    <!-- .events-item__date -->
+                                    <div class="events-item__content ">
+                                        <div class="events-item__title ">
+                                            <h3>Ăn chơi g&#236; khi chỉ c&#243; nửa ng&#224;y ở Huế</h3>
+                                        </div>
+                                        <div class="events-item__info ">
+                                            <ul class="item-info__list ">
+                                                <li class="info-list__item "><i class="fas fa-user "></i>&nbsp;&nbsp;Đăng bởi A25 Hotel</li>
+                                                <li class="info-list__item "><i class="fas fa-comment-alt "></i> &nbsp;6 Bình luận</li>
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="events-item__text ">
+                                    Ăn chơi gì khi chỉ có nửa ngày ở Huế
+                                </div>
+
+                                <div class="events-item__link ">
+                                    <a href="blog-detail.html ">Đọc thêm <i class="fas fa-angle-right "></i></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+                        <div class="events__item ">
+                            <div class="events-item__img ">
+                                <img src="./Image/so-tay-du-lich/3-DSC-8420-1524988128_680x0.jpg" class="img-responsive " alt="so-tay-du-lich ">
+                            </div>
+                            <div class="events-item__body ">
+                                <div class="events-item__header ">
+                                    <div class="events-item__date ">
+                                        <p class="item_date__nbr ">11</p>
+                                        <p class="item_date__mounth ">Tháng 5</p>
+                                    </div>
+
+                                    <div class="events-item__content ">
+                                        <div class="events-item__title ">
+                                            <h3>Vườn d&#226;u t&#226;y ở Sa Pa thu ph&#237; tham quan 4 ng&#224;y nghỉ lễ</h3>
+                                        </div>
+                                        <div class="events-item__info ">
+                                            <ul class="item-info__list ">
+                                                <li class="info-list__item "><i class="fas fa-user "></i>&nbsp;&nbsp;Đăng bởi A25 Hotel</li>
+                                                <li class="info-list__item "><i class="fas fa-comment-alt "></i> &nbsp;6 Bình luận</li>
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="events-item__text ">
+                                    Vườn dâu tây ở Sa Pa thu phí tham quan 4 ngày nghỉ lễ
+                                </div>
+
+                                <div class="events-item__link ">
+                                    <a href="blog-detail.html ">Đọc thêm <i class="fas fa-angle-right "></i></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 ">
+                        <div class="text-center ">
+                            <a href="/so-tay-du-lich" class="btn ">Xem tất cả</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js " integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js "></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./JS/owl.carousel.js"></script>
+    <script src="./JS/main.js"></script>
+    <script src="./JS/slide.js"></script>
+</body>
+
+</html>
