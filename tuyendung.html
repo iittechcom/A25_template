@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./CSS/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="./CSS/owl-carousel/owl.theme.default.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>A25 hotel Blog</title>
+    <link rel="stylesheet" href="./asset/css/tuyendung.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-md-6">
+                            <div class="item-header item-header_left">
+                                <p>
+                                    <i class="far fa-map-marker-alt"></i> &nbsp;147 Mai Dịch - Q. Cầu Giấy - Tp. Hà Nội
+                                </p>
+                                <p>
+                                    <i class="fas fa-phone-alt"></i> &nbsp;
+                                    <a href="Tel:(+84) 981 769 974">(+84) 981 769 974</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="item-header item-header_right align-items-center">
+                                <ul class="social__icons">
+                                    <li class="social-icons__item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="social-icons__item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="social-icons__item"><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+                                </ul>
+                                <div class="dropdown lang-menu">
+                                    <select id="selectbox2">
+                                        <option value="">Tiếng Việt</option>
+                                        <option value="january">English</option>
+                                        <option value="february">China</option>
+                                        <option value="march">Korea</option>
+                                        <option value="april">Japan</option>
+                                      
+                                       
+                                    </select>
+                                </div>
+                                <form class="search-form hidden-xs" role="search">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn-search_top"><i class="fas fa-search"></i></button>
+                                        <input type="text" class="form-control" placeholder="Nhập từ khóa...">
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-3">
+                            <div class="logo">
+                                <a class="navbar-brand" href="#">
+                                    <img class="" src="./Image/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Trang chủ </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Giới thiệu</a>
+                                    </li>
+
+
+                                    <li class="nav-item dropdown" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a href="/khach-san" class="nav-link">
+
+                                            <span>DANH SÁCH KHÁCH SẠN</span>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-toggle" aria-labelledby="navbarDropdownMenuLink">
+
+                                            <li class="nav-item dropdown" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <a href="/khach-san-tai-ha-noi">KHÁCH SẠN TẠI HÀ NỘI</a>
+                                                <ul class="dropdown-menu2" aria-labelledby="navbarDropdownMenuLink2">
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-thanh-xuan">Khách Sạn tại Quận Thanh Xuân </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-hai-ba-trung">Khách Sạn tại Quận Hai Bà Trưng </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-hoan-kiem">Khách Sạn tại Quận Hoàn Kiếm </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-tay-ho">Khách sạn tại Quận Tây Hồ </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-ba-dinh">Khách sạn tại Quận Ba Đình </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-dong-da">Khách Sạn tại Quận Đống Đa </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-cau-giay">Khách sạn tại Quận Cầu Giấy </a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/khach-san-tai-da-nang">KHÁCH SẠN TẠI ĐÀ NẴNG</a>
+                                                <ul class="dropdown-menu2">
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-hai-chau">Khách sạn tại Quận Hải Châu </a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/khach-san-tai-thanh-pho-ho-chi-minh">KHÁCH SẠN TẠI TP.HCM</a>
+                                                <ul class="dropdown-menu2">
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-1">Khách sạn tại Quận 1 </a></li>
+                                                    <li class="item-menu"><a href="/khach-san-tai-quan-3">Khách sạn tại Quận 3 </a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/khach-san-tai-duc">KHÁCH SẠN TẠI ĐỨC</a>
+                                                <ul class="dropdown-menu2">
+                                                    <li class="item-menu"><a href="/khach-san-tai-berlin">Khách sạn tại Berlin </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tours</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tin tức</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tin Tức</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tuyển dụng</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="recruitment">
+            <div class="container rec__container">
+                <div class="rec__title">
+                    <h3 class="rec__title--name text-md-center">tuyển dụng</h3>
+                </div>
+                <div class="container ng-scope recruitment" ng-controller="controller">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group col-md-12">
+                                <select id="inputState" class="form-control" aria-placeholder="--Tỉnh/thành phố">
+                                  <option>---Tỉnh/Thành phố---</option>
+                                  <option>Hà Nội</option>
+                                  <option>Đà Nẵng</option>
+                                  <option>TP. Hồ Chí Minh</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group col-md-12">
+                                <select id="inputState" class="form-control" aria-placeholder="--Tỉnh/thành phố">
+                                  <option>---Tất cả---</option>
+                                  <option>Marketing</option>
+        
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group col-md-12">
+                                <select id="inputState" class="form-control" aria-placeholder="--Tỉnh/thành phố">
+                                  <option>---Vị Trí---</option>
+                                  <option>Marketing</option>
+                                  <option>Quản lý</option>
+                                  <option>Bảo vệ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-primary btn-block">Tìm Kiếm &nbsp;<i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin: 10px 0 0 0;">
+                        <table class="table table-recruitment table-tripped">
+                            <thead>
+                                <tr style="background: #F7F7F9;">
+                                    <th>Tỉnh/Thành</th>
+                                    <th>Phòng ban</th>
+                                    <th>Vị trí</th>
+                                    <th>Ngày bắt đầu</th>
+                                    <th>Ngày kết thúc </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- ngRepeat: item in data -->
+                                <!-- ngIf: data.length > 0 -->
+                                <tr class="ng-scope">
+                                    <td class="ng-binding">Hà Nội</td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
+                                            Marketing
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Chuyên viên SEO </a>
+                                    </td>
+                                    <td class="ng-binding">10/14/2020</td>
+                                    <td class="ng-binding">12/31/2020</td>
+                                </tr>
+
+                                <tr class="ng-scope">
+                                    <td class="ng-binding">Hà Nội</td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
+                                            Marketing
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Chuyên Viên Marketing Online </a>
+                                    </td>
+                                    <td class="ng-binding">10/14/2020</td>
+                                    <td class="ng-binding">12/31/2020</td>
+                                </tr>
+
+                                <tr class="ng-scope">
+                                    <td class="ng-binding">Hà Nội</td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal" data-toggle="modal" data-target="#myModal">
+                                            Kinh Doanh
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal" data-toggle="modal" data-target="#myModal">Chuyên viên Chăm sóc khách hàng </a>
+                                    </td>
+                                    <td class="ng-binding">10/14/2020</td>
+                                    <td class="ng-binding">12/31/2020</td>
+                                </tr>
+                                <!-- end ngIf: data.length > 0 -->
+                                <!-- end ngRepeat: item in data -->
+                                <!-- ngIf: data.length > 0 -->
+                                <tr class="ng-scope">
+                                    <td class="ng-binding">Hà Nội</td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
+                                            Hành chính Văn phòng
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Kế toán nội bộ </a>
+                                    </td>
+                                    <td class="ng-binding">10/14/2020</td>
+                                    <td class="ng-binding">12/31/2020</td>
+                                </tr>
+                                <!-- end ngIf: data.length > 0 -->
+                                <!-- end ngRepeat: item in data -->
+                                <!-- ngIf: data.length > 0 -->
+                                <tr class="ng-scope">
+                                    <td class="ng-binding">Hà Nội</td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
+                                            Marketing
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Chuyên viên Content Marketing </a>
+                                    </td>
+                                    <td class="ng-binding">10/14/2020</td>
+                                    <td class="ng-binding">12/31/2020</td>
+                                </tr>
+                                <!-- end ngIf: data.length > 0 -->
+                                <!-- end ngRepeat: item in data -->
+                                <!-- ngIf: data.length > 0 -->
+                                <tr class="ng-scope">
+                                    <td class="ng-binding">Hà Nội</td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
+                                            Marketing
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Thực tập sinh Content Marketing </a>
+                                    </td>
+                                    <td class="ng-binding">10/14/2020</td>
+                                    <td class="ng-binding">12/31/2020</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-uppercase">Ứng tuyển</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <h4>Vị trí tuyển dụng </h4>
+                                                <h4 style="color: #101994;margin-top: 10px;" class="ng-binding"> Lập trình viên .NET </h4>
+                                                <h5>Tỉnh/ Thành: <b class="ng-binding"> Hà Nội </b></h5>
+                                                <h5>Địa chỉ làm việc: <b class="ng-binding"> 147 Mai Dịch - Cầu Giấy - Hà Nội </b></h5>
+                                                <h5>Ngày đăng: <b class="ng-binding"> 27/03/2020</b></h5>
+
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div>
+
+                                                    <a href="ungtuyen.html" class="btn-apply btn-apply-flat">ỨNG TUYỂN ONLINE</a>
+                                                    </br>
+                                                    <br>
+                                                    <br>
+                                                    <a href="ungtuyen.html" title="" class="btn-apply btn-apply-flat">GỬI CV NGAY</a>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <h5>
+                                                    <span style="display:block;margin-bottom:5px">Mô tả công việc: </span>
+                                                    <!-- ngIf: detail.Description == '' -->
+                                                    <!-- ngIf: detail.Description != '' --><span ng-if="detail.Description != ''" ng-bind-html="detail.Description" class="ng-binding ng-scope">- Tham gia phát triển các hệ thống : Website, web app và các project mới công ty phát triển<br>
+                                                    - Quản trị, vận hành ứng dụng, dịch vụ và xử lý lỗi phát sinh<br>
+                                                    - Nghiên cứu và ứng dụng các công nghệ mới để phục vụ cho nhu cầu của khách hàng<br>
+                                                    <br>
+                                                    <strong>Yêu cầu:</strong><br>
+                                                    - Tốt nghiệp Đại học/ Cao đẳng chuyên ngành CNTT<br>
+                                                    - Tối thiểu 06 tháng kinh nghiệm lập trình về .NET, C#<br>
+                                                    - Thành thạo ngôn ngữ lập trình C#&nbsp; , có kiến thức cơ bản về HTML - CSS - Javascript. Biết sử dụng LINQ để truy vấn dữ liệu. (nắm vững .NET MVC và Angular là một lợi thế)<br>
+                                                    - Sử dụng thành thạo Visual Studio, MSSQL Server&nbsp; (Ưu tiên có kinh nghiệm với ASP.NET MVC)<br>
+                                                    - Ưu tiên ứng viên có hiểu biết về lĩnh vực khách sạn, nhà hàng, du lịch<br>
+                                                    - Tư duy logic tốt, nhận thức nhanh, có khả năng thu thập, phân tích thông tin<br>
+                                                    - Nhiệt tình, có trách nhiệm, cẩn thận, chăm chỉ, chủ động, sáng tạo trong công việc<br>
+                                                    <br>
+                                                    <strong>Quyền lợi:</strong><br>
+                                                    - Được làm việc trong môi trường năng động, chuyên nghiệp<br>
+                                                    - Được đóng BHXH, BHYT, BHTN khi trở thành Nhân viên chính thức<br>
+                                                    - Được hưởng các chính sách phúc lợi theo quy định của Công ty: Lễ, Tết, sinh nhật cá nhân, nghỉ mát, nghỉ phép,...<br>
+                                                    - Được đào tạo kỹ năng chuyên môn<br>
+                                                    - Được tham gia vào các dự án thực tế<br>
+                                                    <br>
+                                                    <strong>THÔNG TIN LIÊN HỆ - NỘP HỒ SƠ<br>
+                                                    CÔNG TY TNHH CÔNG NGHỆ VÀ TRUYỀN THÔNG IIT</strong><br>
+                                                    VPGD: Tầng 4, 147 Mai Dịch, Cầu Giấy, Hà Nội<br>
+                                                    Điện thoại: 0242 242 0777<br>
+                                                    Hotline: 03466 030 385 Hoặc 0964 677 029&nbsp;<br>
+                                                    Email: <a href="http://hr@iit.com.vn">hr@iit.com.vn</a><br>
+                                                    Website:&nbsp;<a href="http://iit.com.vn/">http://iit.com.vn/&nbsp;</a>&nbsp;</span>
+                                                    <!-- end ngIf: detail.Description != '' -->
+                                                </h5>
+                                            </div>
+                                            <div class="col-md-12 frame_location ng-binding" style="margin-top: 15px;" ng-bind-html="detail.Location | trustAs"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d952421.2821858117!2d105.63506553818006!3d21.17643681990194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454c563dba4eb%3A0xc3161d468d77f9aa!2zQ8O0bmcgdHkgVE5ISCBDw7RuZyBuZ2jhu4cgdsOgIHRydXnhu4FuIHRow7RuZyBJSVQ!5e0!3m2!1svi!2s!4v1585622350797!5m2!1svi!2s"
+                                                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js " integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js "></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./JS/owl.carousel.js"></script>
+    <script src="./JS/slide.js"></script>
+</body>
+
+</html>

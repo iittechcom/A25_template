@@ -1,0 +1,139 @@
+header {
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #374853;
+}
+
+a {
+    color: #374853;
+}
+
+.list--item__img {
+    height: 150px;
+}
+
+.list--item {
+    position: relative;
+}
+
+.list--item__img img {
+    width: 100%;
+    height: inherit;
+}
+
+.blog {
+    padding: 40px 0 0 0;
+}
+
+.list--item__surface {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.list--item__surface span {
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #8e191d;
+    color: #fff;
+    padding: 4px 9px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+
+.list--item__title {
+    padding: 20px 0 0 0;
+}
+
+.list--item__title a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #454647;
+    overflow: hidden;
+    height: 47px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.list--item__title a:hover {
+    color: #d03135;
+}
+
+.list--item__author {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.author__cmt {
+    color: #FF7F50;
+}
+
+.blog__list--item {
+    margin: 0 0 25px 0;
+}
+
+.posts--img img {
+    max-width: 100%;
+}
+
+.list__posts {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.posts__title {
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.list__link--left {
+    margin: 0 10px 0 0;
+}
+
+.list__link--left img {
+    width: 82px;
+}
+
+.posts__list {
+    border-bottom: 1px solid #ddd;
+}
+
+.list__link {
+    padding: 5px 0 0 0;
+    margin: 0 0 10px 0;
+    display: block;
+    display: flex;
+}
+
+.list__link--right p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.posts__top--tag {
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posts__top--tag li a {
+    display: block;
+    background: #cdc9c5;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
