@@ -1,0 +1,30 @@
+header {
+    position: relative;
+}
+
+.rec__title--name {
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+    color: #8d191c;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.rec__title {
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.btn-block:hover {
+    background-color: #8e191cde;
+    border: #8e191cde;
+}
+
+.btn-block:active {
+    background-color: #8e191cde;
+    border-color: #8e191cde;
+}
+
+.form-group {
+    margin: 0;
+}
