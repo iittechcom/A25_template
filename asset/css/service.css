@@ -62,10 +62,16 @@
     background: #fafafa;
 }
 
-.service__form {
+.service__form,
+.detail__check,
+.detail__contact {
     padding: 40px;
     background-color: #ffffff;
     border: 1px solid rgb(209, 209, 209);
+}
+
+.detail__contact {
+    margin: 30px 0;
 }
 
 .space {
@@ -79,5 +85,121 @@
     margin: 5px 0 10px 0;
 }
 
+.room__details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.room__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room__intro {
+    margin: 0;
+    border-bottom: 1px solid rgb(216, 213, 213);
+}
+
+.date-time-tour {
+    display: flex;
+    margin: 10px 0;
+    border-bottom: 1px solid rgb(216, 213, 213);
+}
+
+.date-time-tour div {
+    width: 50%;
+}
+
+.date-time-tour div label {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.form__book .row .form-group label {
+    font-weight: 700;
+}
+
+.total__price label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.total__price p {
+    font-size: 22px;
+    font-weight: 700;
+    color: #8d191c;
+}
+
+.contact__map,
+.contact__phone,
+.contact__email {
+    padding: 10px 0;
+    align-items: center;
+    display: flex;
+}
+
+.contact__map i,
+.contact__phone i,
+.contact__email i {
+    width: 10%;
+    text-align: center;
+    float: left;
+    font-size: 26px;
+    color: #8d191c;
+}
+
+.contact__map .address,
+.contact__phone .phone,
+.contact__email .email {
+    margin: 0 0 0 20px;
+}
+
+.form__section-heading,
+.heading__title,
+.room__price h3 {
+    font-weight: 700;
+    color: #374853;
+}
+
+.form__titlt--heading,
+.detail__subheading {
+    color: #8d191c;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.heading__title {
+    margin: 20px 0;
+}
+
 
 /* End Main */
+
+
+/* Responsive mobile */
+
+@media screen and (max-width:768px) {
+    .service__detail {
+        margin: 20px 0 0 0;
+    }
+    .detail__check {
+        padding: 25px;
+    }
+    .service__detail {
+        margin: 0;
+    }
+    .heading__title,
+    .room__price h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .service__detail {
+        margin: 20px 0 0 0;
+    }
+}
