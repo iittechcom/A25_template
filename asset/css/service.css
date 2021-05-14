@@ -1,0 +1,83 @@
+/* banner */
+
+.breadcrumb-contact a {
+    color: rgb(231, 184, 67);
+}
+
+#banner .owl-banner-contact .item {
+    position: relative;
+    height: 100vh;
+}
+
+#banner .owl-banner-contact .item img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+#banner .owl-banner-contact .item .content-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    z-index: 2;
+    text-align: center;
+    color: #FFF;
+}
+
+#banner .owl-banner-contact .item .content-banner .welcome_content__title {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#banner .owl-banner-contact .item .content-banner .btn-reservation {
+    border: 1px solid #FFF;
+    color: #FFF;
+    transition: all .5s ease-in-out;
+}
+
+#banner .owl-banner-contact .item .content-banner .btn-reservation:hover {
+    background: #8d191c;
+}
+
+#banner .owl-banner-contact .item::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 12%);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+
+/* End banner */
+
+
+/* Main */
+
+.main {
+    padding: 80px 0;
+    background: #fafafa;
+}
+
+.service__form {
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.space {
+    width: 100%;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+
+.space__bottom {
+    display: block;
+    margin: 5px 0 10px 0;
+}
+
+
+/* End Main */
