@@ -62,3 +62,9 @@ $('select').each(function() {
     });
 
 });
+$(".smap-btn").click(function(e) {
+    e.preventDefault();
+    $(".smap-btn_title").toggle();
+    $(".hide-search").toggle();
+    $(".searchmaps").toggleClass("active");
+});
