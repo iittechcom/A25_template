@@ -979,13 +979,12 @@ header {
   .list-hotel figure:hover::before {
     -webkit-animation: shine 0.75s;
     animation: shine 0.75s; }
-
-h3 {
-  font-size: 26px;
-  color: #8e191cde;
-  font-weight: 600;
-  margin-bottom: 18px;
-  margin-top: 30px; }
+  .list-hotel h3 {
+    font-size: 26px;
+    color: #8e191cde;
+    font-weight: 600;
+    margin-bottom: 18px;
+    margin-top: 15px; }
 
 select {
   height: 34px;
@@ -1045,3 +1044,32 @@ select {
   .list-city .item:hover figure::before {
     opacity: 1;
     z-index: 1; }
+
+.detai-hotel .detail-hotel-tab {
+  border-bottom: 1px solid #bad4f7;
+  padding-bottom: 1px; }
+  .detai-hotel .detail-hotel-tab .detailhotel-tab_list {
+    background-color: #fff;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    display: table;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px; }
+    .detai-hotel .detail-hotel-tab .detailhotel-tab_list .detailhotel-tab_item {
+      border-right: 1px solid #fff;
+      display: table-cell;
+      text-align: center; }
+      .detai-hotel .detail-hotel-tab .detailhotel-tab_list .detailhotel-tab_item a {
+        display: block;
+        padding: 8px;
+        font-weight: bold;
+        text-decoration: none; }
+      .detai-hotel .detail-hotel-tab .detailhotel-tab_list .detailhotel-tab_item:last-child {
+        border-right: none; }
+.detai-hotel .nav-link.active {
+  color: #ffffff !important;
+  background-color: #febb02 !important;
+  border-color: #febb02 !important;
+  padding: 10px 15px; }
