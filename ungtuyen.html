@@ -14,11 +14,14 @@
     <link rel="stylesheet" href="./CSS/owl-carousel/owl.theme.default.css">
     <link rel="stylesheet" href="./CSS/style.css">
 
-    <title>A25 hotel Blog</title>
-    <link rel="stylesheet" href="./asset/css/tuyendung.css">
+    <!--link page css-->
+    <link rel="stylesheet" href="./asset/css/service.css">
+    <link rel="stylesheet" href="./asset/css/ungtuyen.css">
+    <title>A25 Hotel Service</title>
 </head>
 
 <body>
+    <!--Header-->
     <header>
         <div class="header">
             <div class="top-header">
@@ -134,7 +137,7 @@
                                         <a class="nav-link" href="#">Tours</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Tin tức</a>
+                                        <a class="nav-link" href="#">Sổ tay du lịch</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Tin Tức</a>
@@ -152,234 +155,132 @@
 
         </div>
     </header>
-    <main>
-        <div class="recruitment">
-            <div class="container rec__container">
-                <div class="rec__title">
-                    <h3 class="rec__title--name text-md-center">tuyển dụng</h3>
-                </div>
-                <div class="container ng-scope recruitment" ng-controller="controller">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="form-group col-md-12">
-                                <select id="inputState" class="form-control" aria-placeholder="--Tỉnh/thành phố">
-                                  <option>---Tỉnh/Thành phố---</option>
-                                  <option>Hà Nội</option>
-                                  <option>Đà Nẵng</option>
-                                  <option>TP. Hồ Chí Minh</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group col-md-12">
-                                <select id="inputState" class="form-control" aria-placeholder="--Tỉnh/thành phố">
-                                  <option>---Tất cả---</option>
-                                  <option>Marketing</option>
-        
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group col-md-12">
-                                <select id="inputState" class="form-control" aria-placeholder="--Tỉnh/thành phố">
-                                  <option>---Vị Trí---</option>
-                                  <option>Marketing</option>
-                                  <option>Quản lý</option>
-                                  <option>Bảo vệ</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <button class="btn btn-outline-danger btn-block">Tìm Kiếm &nbsp;<i class="fa fa-search"></i></button>
-                        </div>
-                    </div>
-                    <div class="row" style="margin: 10px 0 0 0;">
-                        <table class="table table-recruitment table-tripped">
-                            <thead>
-                                <tr style="background: #F7F7F9;">
-                                    <th>Tỉnh/Thành</th>
-                                    <th>Phòng ban</th>
-                                    <th>Vị trí</th>
-                                    <th>Ngày bắt đầu</th>
-                                    <th>Ngày kết thúc </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <!-- ngRepeat: item in data -->
-                                <!-- ngIf: data.length > 0 -->
-                                <tr class="ng-scope">
-                                    <td class="ng-binding">Hà Nội</td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
-                                            Marketing
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Chuyên viên SEO </a>
-                                    </td>
-                                    <td class="ng-binding">10/14/2020</td>
-                                    <td class="ng-binding">12/31/2020</td>
-                                </tr>
+    <!--End header-->
 
-                                <tr class="ng-scope">
-                                    <td class="ng-binding">Hà Nội</td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
-                                            Marketing
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Chuyên Viên Marketing Online </a>
-                                    </td>
-                                    <td class="ng-binding">10/14/2020</td>
-                                    <td class="ng-binding">12/31/2020</td>
-                                </tr>
+    <!--Bannner-->
+    <banner>
+        <section id="banner">
+            <div class="section">
+                <div class="banner">
+                    <div class="owl-banner-contact owl-carousel owl-theme">
 
-                                <tr class="ng-scope">
-                                    <td class="ng-binding">Hà Nội</td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal" data-toggle="modal" data-target="#myModal">
-                                            Kinh Doanh
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal" data-toggle="modal" data-target="#myModal">Chuyên viên Chăm sóc khách hàng </a>
-                                    </td>
-                                    <td class="ng-binding">10/14/2020</td>
-                                    <td class="ng-binding">12/31/2020</td>
-                                </tr>
-                                <!-- end ngIf: data.length > 0 -->
-                                <!-- end ngRepeat: item in data -->
-                                <!-- ngIf: data.length > 0 -->
-                                <tr class="ng-scope">
-                                    <td class="ng-binding">Hà Nội</td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
-                                            Hành chính Văn phòng
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Kế toán nội bộ </a>
-                                    </td>
-                                    <td class="ng-binding">10/14/2020</td>
-                                    <td class="ng-binding">12/31/2020</td>
-                                </tr>
-                                <!-- end ngIf: data.length > 0 -->
-                                <!-- end ngRepeat: item in data -->
-                                <!-- ngIf: data.length > 0 -->
-                                <tr class="ng-scope">
-                                    <td class="ng-binding">Hà Nội</td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
-                                            Marketing
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Chuyên viên Content Marketing </a>
-                                    </td>
-                                    <td class="ng-binding">10/14/2020</td>
-                                    <td class="ng-binding">12/31/2020</td>
-                                </tr>
-                                <!-- end ngIf: data.length > 0 -->
-                                <!-- end ngRepeat: item in data -->
-                                <!-- ngIf: data.length > 0 -->
-                                <tr class="ng-scope">
-                                    <td class="ng-binding">Hà Nội</td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">
-                                            Marketing
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="ng-binding" data-toggle="modal" data-target="#myModal">Thực tập sinh Content Marketing </a>
-                                    </td>
-                                    <td class="ng-binding">10/14/2020</td>
-                                    <td class="ng-binding">12/31/2020</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <!-- Modal -->
-                        <div class="modal fade" id="myModal" role="dialog">
-                            <div class="modal-dialog">
-
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h4 class="modal-title text-uppercase">Ứng tuyển</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="row">
-                                            <div class="col-md-8">
-                                                <h4>Vị trí tuyển dụng </h4>
-                                                <h4 style="color: #101994;margin-top: 10px;" class="ng-binding"> Lập trình viên .NET </h4>
-                                                <h5>Tỉnh/ Thành: <b class="ng-binding"> Hà Nội </b></h5>
-                                                <h5>Địa chỉ làm việc: <b class="ng-binding"> 147 Mai Dịch - Cầu Giấy - Hà Nội </b></h5>
-                                                <h5>Ngày đăng: <b class="ng-binding"> 27/03/2020</b></h5>
-
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div>
-
-                                                    <a href="ungtuyen.html" class="btn-apply btn-apply-flat">ỨNG TUYỂN ONLINE</a>
-                                                    </br>
-                                                    <br>
-                                                    <br>
-                                                    <a href="ungtuyen.html" title="" class="btn-apply btn-apply-flat">GỬI CV NGAY</a>
-
+                        <div class="item section__home " id="section__home ">
+                            <img src="./Image/631a8908.jpg" alt="">
+                            <div class="content-banner">
+                                <div class="container ">
+                                    <div class="row ">
+                                        <div class="col-sm-12 ">
+                                            <div class="welcome__content ">
+                                                <h1 class="welcome_content__title">Tuyển Dụng</h1>
+                                                <div class="divider ">
+                                                    <div class="breadcrumb-contact">
+                                                        <a href="./index.html">Trang chủ</a> <span>/ Tuyển Dụng</span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-12">
-                                                <h5>
-                                                    <span style="display:block;margin-bottom:5px">Mô tả công việc: </span>
-                                                    <!-- ngIf: detail.Description == '' -->
-                                                    <!-- ngIf: detail.Description != '' --><span ng-if="detail.Description != ''" ng-bind-html="detail.Description" class="ng-binding ng-scope">- Tham gia phát triển các hệ thống : Website, web app và các project mới công ty phát triển<br>
-                                                    - Quản trị, vận hành ứng dụng, dịch vụ và xử lý lỗi phát sinh<br>
-                                                    - Nghiên cứu và ứng dụng các công nghệ mới để phục vụ cho nhu cầu của khách hàng<br>
-                                                    <br>
-                                                    <strong>Yêu cầu:</strong><br>
-                                                    - Tốt nghiệp Đại học/ Cao đẳng chuyên ngành CNTT<br>
-                                                    - Tối thiểu 06 tháng kinh nghiệm lập trình về .NET, C#<br>
-                                                    - Thành thạo ngôn ngữ lập trình C#&nbsp; , có kiến thức cơ bản về HTML - CSS - Javascript. Biết sử dụng LINQ để truy vấn dữ liệu. (nắm vững .NET MVC và Angular là một lợi thế)<br>
-                                                    - Sử dụng thành thạo Visual Studio, MSSQL Server&nbsp; (Ưu tiên có kinh nghiệm với ASP.NET MVC)<br>
-                                                    - Ưu tiên ứng viên có hiểu biết về lĩnh vực khách sạn, nhà hàng, du lịch<br>
-                                                    - Tư duy logic tốt, nhận thức nhanh, có khả năng thu thập, phân tích thông tin<br>
-                                                    - Nhiệt tình, có trách nhiệm, cẩn thận, chăm chỉ, chủ động, sáng tạo trong công việc<br>
-                                                    <br>
-                                                    <strong>Quyền lợi:</strong><br>
-                                                    - Được làm việc trong môi trường năng động, chuyên nghiệp<br>
-                                                    - Được đóng BHXH, BHYT, BHTN khi trở thành Nhân viên chính thức<br>
-                                                    - Được hưởng các chính sách phúc lợi theo quy định của Công ty: Lễ, Tết, sinh nhật cá nhân, nghỉ mát, nghỉ phép,...<br>
-                                                    - Được đào tạo kỹ năng chuyên môn<br>
-                                                    - Được tham gia vào các dự án thực tế<br>
-                                                    <br>
-                                                    <strong>THÔNG TIN LIÊN HỆ - NỘP HỒ SƠ<br>
-                                                    CÔNG TY TNHH CÔNG NGHỆ VÀ TRUYỀN THÔNG IIT</strong><br>
-                                                    VPGD: Tầng 4, 147 Mai Dịch, Cầu Giấy, Hà Nội<br>
-                                                    Điện thoại: 0242 242 0777<br>
-                                                    Hotline: 03466 030 385 Hoặc 0964 677 029&nbsp;<br>
-                                                    Email: <a href="http://hr@iit.com.vn">hr@iit.com.vn</a><br>
-                                                    Website:&nbsp;<a href="http://iit.com.vn/">http://iit.com.vn/&nbsp;</a>&nbsp;</span>
-                                                    <!-- end ngIf: detail.Description != '' -->
-                                                </h5>
-                                            </div>
-                                            <div class="col-md-12 frame_location ng-binding" style="margin-top: 15px;" ng-bind-html="detail.Location | trustAs"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d952421.2821858117!2d105.63506553818006!3d21.17643681990194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454c563dba4eb%3A0xc3161d468d77f9aa!2zQ8O0bmcgdHkgVE5ISCBDw7RuZyBuZ2jhu4cgdsOgIHRydXnhu4FuIHRow7RuZyBJSVQ!5e0!3m2!1svi!2s!4v1585622350797!5m2!1svi!2s"
-                                                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
                                         </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    </div>
                                 </div>
-
                             </div>
                         </div>
-
+                        <div class="item section__home " id="section__home ">
+                            <img src="./Image/631a8921.jpg" alt="">
+                            <div class="content-banner">
+                                <div class="container ">
+                                    <div class="row ">
+                                        <div class="col-sm-12 ">
+                                            <div class="welcome__content ">
+                                                <h1 class="welcome_content__title wow fadeInRight ">Tuyển Dụng</h1>
+                                                <div class="divider ">
+                                                    <div class="breadcrumb-contact">
+                                                        <a href="./index.html">Trang chủ</a> <span>/ Tuyển Dụng</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item section__home " id="section__home ">
+                            <img src="./Image/631a8973.jpg" alt="">
+                            <div class="content-banner">
+                                <div class="container ">
+                                    <div class="row ">
+                                        <div class="col-sm-12 ">
+                                            <div class="welcome__content ">
+                                                <h1 class="welcome_content__title wow fadeInRight ">Tuyển Dụng</h1>
+                                                <div class="divider ">
+                                                    <div class="breadcrumb-contact">
+                                                        <a href="./index.html">Trang chủ</a> <span>/ Tuyển Dụng</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+    </banner>
+    <!--End Banner-->
+
+    <!--Main-->
+    <main>
+        <section class="apply">
+            <div class="row apply__row">
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 apply__col">
+                    <div class="apply__info">
+                        <div class="apply__info--title">
+                            <h3 class="info--title__name">Thông Tin Ứng Tuyển</h3>
+                        </div>
+                        <div class="apply__form">
+                            <form action="GET">
+                                <div class="form-group">
+                                    <label for="name">Họ tên</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sex">Giới tính</label>
+                                    <div class="male">
+                                        <input type="radio" id="male" name="gender" value="male">
+                                        <label for="male">Nam</label>
+                                    </div>
+                                    <div class="female">
+                                        <input type="radio" id="female" name="gender" value="female">
+                                        <label for="female">Nữ</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Datetime">Ngày sinh</label>
+                                    <input type="Date" class="form-control" id="FullName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Datetime">Email cá nhân</label>
+                                    <input type="text" class="form-control" id="FullName" placeholder="info@webhotel.vn">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Datetime">Link Portfolio</label>
+                                    <input type="text" class="form-control" id="FullName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlFile1">File CV</label>
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                                <div class="row apply__submit">
+                                    <button class="button__submit">Ứng tuyển</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <!--End Main-->
     <!--Footer-->
     <footer>
         <div class="section__footer">
@@ -801,15 +702,16 @@
         </div>
     </footer>
     <!--End footer-->
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js " integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin=" anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js "></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="./JS/owl.carousel.js"></script>
-    <script src="./JS/main.js"></script>
     <script src="./JS/slide.js"></script>
+    <script src="./JS/main.js"></script>
+    <script src="./asset/js/main.js"></script>
 </body>
+
 
 </html>

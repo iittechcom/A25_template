@@ -1,0 +1,55 @@
+.map--heading__name {
+    color: #8d191c;
+    margin: 30px 0;
+    font-size: 24px;
+}
+
+.google__map {
+    padding: 40px 0;
+}
+
+.google__map--input {
+    justify-content: space-between;
+}
+
+.map--input__search {
+    align-items: center;
+    display: flex;
+}
+
+.map--input__search label {
+    margin-right: 10px;
+    white-space: nowrap;
+    display: block;
+}
+
+#place__hotel {
+    outline: none;
+    border: 1px solid rgb(180, 179, 179);
+}
+
+.map {
+    border: 1px solid rgb(184, 184, 184);
+    width: 100%;
+}
+
+.map iframe {
+    width: inherit;
+}
+
+@media screen and (max-width:768px) {
+    .map--input__search {
+        display: unset;
+    }
+    .map--input__search label {
+        white-space: unset;
+    }
+    #place__hotel {
+        width: 100%;
+    }
+    #banner .owl-banner-contact .item .content-banner .welcome_content__title {
+        color: #FFF;
+        font-size: 30px;
+        font-weight: 400;
+    }
+}

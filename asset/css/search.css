@@ -1,0 +1,121 @@
+.search {
+    padding: 50px 0;
+}
+
+.search__heading {
+    padding: 8px 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.search__left {
+    border-radius: 5px;
+    border: 1px solid rgb(182, 181, 181);
+}
+
+.search__price,
+.search__optional,
+.search__star {
+    padding: 10px 15px;
+}
+
+.search__price span,
+.search__optional span,
+.search__star span {
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.list__price {
+    padding: 10px 15px;
+}
+
+.list__price .price--item {
+    margin-bottom: 10px;
+    padding: 5px 3px;
+    color: #8d191c;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.list__price .price--item:hover {
+    color: #feb000;
+    cursor: pointer;
+}
+
+.search__room {
+    margin: 0 0 20px 0;
+    padding: 15px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+}
+
+.room--item__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.room--item__text {
+    padding: 0 15px;
+}
+
+.room--item__text .text__title a {
+    text-decoration: none;
+    color: #761c19;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.morning i,
+.pool i,
+.room--not--pay i {
+    margin-right: 10px;
+}
+
+.search__room--row {
+    justify-content: space-between;
+}
+
+.room--price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b68603;
+}
+
+.book--now {
+    width: 64%;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    background-color: #8d191c;
+    border-radius: 4px;
+    transition: all 0.3s linear;
+    text-transform: uppercase;
+}
+
+.book--now:hover {
+    background-color: #f0ad4e;
+    transition: all 0.3s linear;
+}
+
+.room--price--note {
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.search__room:hover {
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 30%);
+}
+
+@media screen and (max-width:768px) {
+    .room--item__text {
+        margin: 20px 0;
+    }
+    .search__room {
+        margin: 20px 0;
+    }
+}
