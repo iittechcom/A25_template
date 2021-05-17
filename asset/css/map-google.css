@@ -4,6 +4,10 @@
     font-size: 24px;
 }
 
+.google__map {
+    padding: 40px 0;
+}
+
 .google__map--input {
     justify-content: space-between;
 }

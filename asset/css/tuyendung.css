@@ -2,6 +2,10 @@ header {
     position: relative;
 }
 
+.recruitment {
+    padding: 40px 0;
+}
+
 .rec__title--name {
     text-transform: uppercase;
     margin: 20px 0 10px 0;
