@@ -17,12 +17,6 @@ header {
 
 .btn-block:hover {
     background-color: #8e191cde;
-    border: #8e191cde;
-}
-
-.btn-block:active {
-    background-color: #8e191cde;
-    border-color: #8e191cde;
 }
 
 .form-group {
