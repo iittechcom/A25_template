@@ -8,3 +8,13 @@ $('.owl-banner-contact').owlCarousel({
     autoplayTimeout: 5000,
     smartSpeed: 2000,
 })
+
+$('.service-slide').owlCarousel({
+    items: 1,
+    loop: true,
+    nav: false,
+    dots: true,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    smartSpeed: 2000,
+})
