@@ -52,4 +52,7 @@
         font-size: 30px;
         font-weight: 400;
     }
+    #banner .owl-banner-contact .item .content-banner {
+        width: 100%;
+    }
 }
