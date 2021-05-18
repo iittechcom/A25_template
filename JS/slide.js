@@ -132,32 +132,41 @@ $('.hotel-gallery-right').owlCarousel({
     loop: true,
 
     autoplay: true,
-    margin: 10,
+
     nav: false,
     dots: false,
     URLhashListener: true,
     autoplayHoverPause: true,
-    startPosition: 'URLHash'
+    startPosition: 'hotel-gallery-bottom'
 });
 
 $('.hotel-gallery-bottom').owlCarousel({
-    loop: true,
-    margin: 10,
-    autoplay: true,
-    nav: true,
-    dots: false,
-    responsiveClass: true,
-    navText: ['<span class="fas fa-chevron-left fa-2x"></span>', '<span class="fas fa-chevron-right fa-2x"></span>'],
-    responsive: {
-        0: {
-            items: 3
-        },
-        600: {
-            items: 4
-        },
-        1000: {
-            items: 5
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        nav: true,
+        dots: false,
+        responsiveClass: true,
+        navText: ['<span class="fas fa-chevron-left fa-2x"></span>', '<span class="fas fa-chevron-right fa-2x"></span>'],
+        responsive: {
+            0: {
+                items: 3
+            },
+            600: {
+                items: 4
+            },
+            1000: {
+                items: 5
+            }
         }
-    }
 
-})
+    })
+    // detail hotel modal
+$('.hotel__list-img').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    navText: ['<span class="fas fa-chevron-left"></span>', '<span class="fas fa-chevron-right"></span>'],
+    dots: false,
+    items: 1,
+});

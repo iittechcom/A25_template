@@ -54,3 +54,8 @@ $(".smap-btn").click(function(e) {
     $(".hide-search").toggle();
     $(".searchmaps").toggleClass("active");
 });
+// date picker
+$(function() {
+    $("#date_start").datepicker();
+    $("#date_end").datepicker();
+});
