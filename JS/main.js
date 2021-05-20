@@ -7,6 +7,13 @@ $(window).scroll(function() {
 
     }
 });
+// drop menumobile
+$(".icondrop").click(function() {
+    $(".dropdown-menu").slideToogle();
+})
+$(".icondrop2").click(function() {
+    $(".dropdown-menu2").slideToogle();
+})
 
 // select language
 $('#selectbox2').each(function() {
